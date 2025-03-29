@@ -1,1 +1,1 @@
-print("Use the arrow keys to move")
+print("Please move forward")
