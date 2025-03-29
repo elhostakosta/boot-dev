@@ -1,0 +1,16 @@
+╭────────────────────────────╮
+│ Running: find .git/objects │
+╰┬───────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - '.git/objects'               
+ │       - '.git/objects/pack'          
+ │       - '.git/objects/info'          
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+.git/objects
+.git/objects/pack
+.git/objects/info

@@ -1,0 +1,35 @@
+╭───────────────────────────────────────╮
+│ Running: git --no-pager log --oneline │
+╰┬──────────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'G:'                         
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+129cb91 G: update titles.md
+4f7f3cd F: Merge branch 'add_classics'
+610b2da E: update contents.md
+ee4c6a5 D: add classics.csv
+df59902 C: add quotes
+278aeb1 B: add titles
+a82b82c A: add contents.md
+
+
+╭─────────────────────╮
+│ Running: git branch │
+╰┬────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - '* update_titles'            
+ ├─  ?  Expect stdout to contain none of:
+ │       - 'add_classics'                
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+  main
+* update_titles

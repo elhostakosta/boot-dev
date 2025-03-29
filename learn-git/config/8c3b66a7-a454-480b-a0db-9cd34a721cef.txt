@@ -1,0 +1,10 @@
+ > Command exit code: 0
+ > Command stdout:
+
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+webflyx.ceo=ThePrimeagen
+webflyx.cto=TheLaneagen
+webflyx.valuation=mid

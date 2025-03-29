@@ -1,0 +1,12 @@
+╭────────────────────────────────────╮
+│ Running: git remote get-url origin │
+╰┬───────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - '../webflyx'                 
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+../webflyx

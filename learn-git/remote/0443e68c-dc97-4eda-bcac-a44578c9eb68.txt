@@ -1,0 +1,38 @@
+╭──────────────╮
+│ Running: pwd │
+╰┬─────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'webflyx-local'              
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+/home/abdlrhmnelsyed/repos/webflyx-local
+╭─────────────────────╮
+│ Running: git status │
+╰┬────────────────────╯
+ ├─  ?  Expect exit code 0
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+╭──────────────────────────────────────────────╮
+│ Running: git config --get init.defaultBranch │
+╰┬─────────────────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'main'                       
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+main

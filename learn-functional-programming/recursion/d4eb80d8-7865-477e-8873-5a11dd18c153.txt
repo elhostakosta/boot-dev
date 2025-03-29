@@ -1,0 +1,1 @@
+It will keep calling itself forever, resulting in an infinite loop

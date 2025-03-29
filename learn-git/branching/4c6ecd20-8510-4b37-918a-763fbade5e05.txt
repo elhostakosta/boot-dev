@@ -1,0 +1,7 @@
+ > Command exit code: 0
+ > Command stdout:
+
+ee4c6a5 (HEAD -> refs/heads/add_classics) D: add classics.csv
+df59902 (refs/heads/main) C: add quotes
+278aeb1 B: add titles
+a82b82c A: add contents.md

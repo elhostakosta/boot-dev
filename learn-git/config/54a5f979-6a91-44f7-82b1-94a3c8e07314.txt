@@ -1,0 +1,1 @@
+It failed because it can't unset an entire section, it needs a key

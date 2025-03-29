@@ -1,0 +1,8 @@
+ > Command exit code: 0
+ > Command stdout:
+
+[core]
+    repositoryformatversion = 0
+    filemode = true
+    bare = false
+    logallrefupdates = true

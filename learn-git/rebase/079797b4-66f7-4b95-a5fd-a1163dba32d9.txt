@@ -1,0 +1,28 @@
+╭────────────────────────────────────────────╮
+│ Running: git --no-pager log --oneline -n 1 │
+╰┬───────────────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'D:'                         
+ ├─  ?  Expect stdout to contain none of:
+ │       - 'E:'                          
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+ee4c6a5 D: add classics.csv
+╭─────────────────────╮
+│ Running: git branch │
+╰┬────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - '* update_dune'              
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+  main
+* update_dune
+  update_titles

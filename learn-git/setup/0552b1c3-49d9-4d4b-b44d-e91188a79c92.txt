@@ -1,0 +1,4 @@
+ > Command exit code: 0
+ > Command stdout:
+
+git version 2.46.0

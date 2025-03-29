@@ -1,0 +1,38 @@
+ > Command exit code: 0
+ > Command stdout:
+
+commit ee4c6a579162d52d21ff84a1b7c6f4275c1e4275
+Author: aaelsay3d <170895942+aaelsay3d@users.noreply.github.com>
+Date:   Fri Sep 6 18:10:11 2024 +0300
+
+    D: add classics.csv
+
+commit df59902c55b1524da19f2f1ed8a23dbf30a7e265
+Author: aaelsay3d <170895942+aaelsay3d@users.noreply.github.com>
+Date:   Fri Sep 6 15:01:17 2024 +0300
+
+    C: add quotes
+
+commit 278aeb1897968144e95a61483ca63d9a657d2d71
+Author: aaelsay3d <170895942+aaelsay3d@users.noreply.github.com>
+Date:   Fri Sep 6 14:54:38 2024 +0300
+
+    B: add titles
+
+commit a82b82ca7fd93d857b035f07835bba41eff3e1fb
+Author: aaelsay3d <170895942+aaelsay3d@users.noreply.github.com>
+Date:   Fri Sep 6 13:44:48 2024 +0300
+
+    A: add contents.md
+
+
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+* add_classics
+  main
+
+
+

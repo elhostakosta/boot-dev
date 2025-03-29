@@ -1,0 +1,71 @@
+╭───────────────────────────────────╮
+│ Running: cat secure/passwords.txt │
+╰┬──────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+root: 12345
+admin: 54321
+lane: 00000
+prime: APICJJY$$PO!NJ@L
+╭──────────────────────────────────╮
+│ Running: cat guilty_pleasures.md │
+╰┬─────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+# Guilty Pleasures (tell no one)
+
+* The Notebook
+* The Love Guru
+* Birdemic: Shock and Terror
+* Troll 2
+* Manos: The Hands of Fate
+* Sharknado
+╭─────────────────────╮
+│ Running: git status │
+╰┬────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:            
+ │       - 'nothing to commit, working tree clean'  
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+╭────────────────────────────╮
+│ Running: git log --oneline │
+╰┬───────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'M:'                         
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+037874f M: add .gitignore
+3709472 Merge pull request #1 from aaelsay3d/add_classics
+37e05c9 L: update classics.csv
+49e056c K: Merge branch 'main' of github.com:aaelsay3d/webflyx
+b45733e J: Update classics.csv
+28a64f7 I: add fear quote
+1a137e7 H: add spice quote
+129cb91 G: update titles.md
+4f7f3cd F: Merge branch 'add_classics'
+610b2da E: update contents.md
+ee4c6a5 D: add classics.csv
+df59902 C: add quotes
+278aeb1 B: add titles
+a82b82c A: add contents.md

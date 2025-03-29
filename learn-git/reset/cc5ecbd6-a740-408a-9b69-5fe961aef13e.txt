@@ -1,0 +1,46 @@
+╭─────────────────────╮
+│ Running: git status │
+╰┬────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'modified:'                  
+ │       - 'titles.md'                  
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+On branch update_dune
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+    modified:   titles.md
+╭───────────────────────────────────────╮
+│ Running: git --no-pager log --oneline │
+╰┬──────────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'A'                          
+ │       - 'B'                          
+ │       - 'C'                          
+ │       - 'D'                          
+ │       - 'E'                          
+ │       - 'F'                          
+ │       - 'G'                          
+ │       - 'H'                          
+ │       - 'I'                          
+ ├─  ?  Expect stdout to contain none of:
+ │       - 'J:'                          
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+28a64f7 I: add fear quote
+1a137e7 H: add spice quote
+129cb91 G: update titles.md
+4f7f3cd F: Merge branch 'add_classics'
+610b2da E: update contents.md
+ee4c6a5 D: add classics.csv
+df59902 C: add quotes
+278aeb1 B: add titles
+a82b82c A: add contents.md

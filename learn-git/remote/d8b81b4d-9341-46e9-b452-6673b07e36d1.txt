@@ -1,0 +1,11 @@
+╭──────────────────╮
+│ Running: git log │
+╰┬─────────────────╯
+ ├─  ?  Expect exit code 128
+
+
+ > Command exit code: 128
+ > Command stdout:
+
+
+

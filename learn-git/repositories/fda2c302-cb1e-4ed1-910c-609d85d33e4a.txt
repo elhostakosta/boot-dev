@@ -1,0 +1,11 @@
+ > Command exit code: 0
+ > Command stdout:
+
+branches
+config
+description
+HEAD
+hooks
+info
+objects
+refs

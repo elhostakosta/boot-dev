@@ -1,0 +1,1 @@
+bin  cmd  contacts  customers  logs  transactions

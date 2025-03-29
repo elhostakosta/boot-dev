@@ -1,0 +1,20 @@
+ > Command exit code: 0
+ > Command stdout:
+
+*   4f7f3cd 610b2da ee4c6a5 (HEAD -> main) F: Merge branch 'add_classics'
+|\  
+| * ee4c6a5 df59902 (add_classics) D: add classics.csv
+* | 610b2da df59902 E: update contents.md
+|/  
+* df59902 278aeb1 C: add quotes
+* 278aeb1 a82b82c B: add titles
+* a82b82c A: add contents.md
+
+
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+  add_classics
+* main

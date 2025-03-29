@@ -1,0 +1,49 @@
+╭────────────────────────────────────────╮
+│ Running: git check-ignore -v advert.md │
+╰┬───────────────────────────────────────╯
+ ├─  ?  Expect stdout to contain none of:
+ │       - 'advert.md'                   
+
+
+ > Command exit code: 1
+ > Command stdout:
+
+
+╭──────────────────────────────────────────╮
+│ Running: git check-ignore -v advert.html │
+╰┬─────────────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'advert.html'                
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+.gitignore:3:advert.html    advert.html
+╭────────────────────────────╮
+│ Running: git log --oneline │
+╰┬───────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - 'N:'                         
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+4263a37 N: update .gitignore and add advert.md
+037874f M: add .gitignore
+3709472 Merge pull request #1 from aaelsay3d/add_classics
+37e05c9 L: update classics.csv
+49e056c K: Merge branch 'main' of github.com:aaelsay3d/webflyx
+b45733e J: Update classics.csv
+28a64f7 I: add fear quote
+1a137e7 H: add spice quote
+129cb91 G: update titles.md
+4f7f3cd F: Merge branch 'add_classics'
+610b2da E: update contents.md
+ee4c6a5 D: add classics.csv
+df59902 C: add quotes
+278aeb1 B: add titles
+a82b82c A: add contents.md

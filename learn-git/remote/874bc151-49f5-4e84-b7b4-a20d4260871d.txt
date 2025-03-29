@@ -1,0 +1,30 @@
+╭─────────────────────────────────────────╮
+│ Running: find .git/objects | head -n 20 │
+╰┬────────────────────────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect > 10 lines on stdout
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+.git/objects
+.git/objects/14
+.git/objects/14/bf50928ccbb6d75039d2a24d8ce85a49eb4cc1
+.git/objects/ee
+.git/objects/ee/4c6a579162d52d21ff84a1b7c6f4275c1e4275
+.git/objects/pack
+.git/objects/5b
+.git/objects/5b/21d4f16a4b07a6cde5a3242187f6a5a68b060f
+.git/objects/18
+.git/objects/18/221de4d18c079475376a493a8dbc20b088df08
+.git/objects/e9
+.git/objects/e9/b7f7a3775a470776be698d3e6b117c5e14be17
+.git/objects/4c
+.git/objects/4c/f81ca392fa000bc6f1992d457ccc2fc2cee152
+.git/objects/74
+.git/objects/74/2ae47550048eceeb91822826d4e6bca55fb897
+.git/objects/27
+.git/objects/27/8aeb1897968144e95a61483ca63d9a657d2d71
+.git/objects/4f
+.git/objects/4f/7f3cdaeb100fa5872016eeada43d72fc78e37e

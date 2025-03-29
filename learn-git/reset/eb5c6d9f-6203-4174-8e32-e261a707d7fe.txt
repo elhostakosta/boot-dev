@@ -1,0 +1,35 @@
+╭─────────────────────╮
+│ Running: git status │
+╰┬────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain none of:
+ │       - 'modified:'                   
+ │       - 'titles.md'                   
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+On branch update_dune
+nothing to commit, working tree clean
+╭────────────────────────╮
+│ Running: cat titles.md │
+╰┬───────────────────────╯
+ ├─  ?  Expect exit code 0
+ ├─  ?  Expect stdout to contain all of:
+ │       - '# Titles'                   
+ ├─  ?  Expect stdout to contain none of:
+ │       - '* The Internship'            
+
+
+ > Command exit code: 0
+ > Command stdout:
+
+# Titles
+
+* A River Runs Through It
+* Fight Club
+* 12 Years a Slave
+* The Big Short
+* 12 Monkeys
+* The Curious Case of Benjamin Button

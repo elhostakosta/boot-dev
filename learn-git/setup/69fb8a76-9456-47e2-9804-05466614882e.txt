@@ -1,0 +1,21 @@
+ > Command exit code: 0
+ > Command stdout:
+
+[user]
+    name = aaelsay3d
+    email = 170895942+aaelsay3d@users.noreply.github.com
+[init]
+    defaultBranch = master
+[color]
+    ui = auto
+[pull]
+    rebase = false
+[core]
+    editor = code --wait
+    compression = 0
+[credential "https://github.com"]
+    helper = 
+    helper = !/home/abdlrhmnelsyed/.local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+    helper = 
+    helper = !/home/abdlrhmnelsyed/.local/bin/gh auth git-credential

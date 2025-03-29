@@ -1,0 +1,8 @@
+╭────────────────────────╮
+│ Running: git ls-remote │
+╰┬───────────────────────╯
+ ├─  ?  Expect exit code 0
+
+
+ > Command exit code: 0
+ > Command stdout:

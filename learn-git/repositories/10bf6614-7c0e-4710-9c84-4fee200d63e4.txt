@@ -1,0 +1,10 @@
+> Command exit code: 0
+ > Command stdout:
+
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+    new file:   contents.md

@@ -1,0 +1,1 @@
+Making usage easy, hiding implementation details
