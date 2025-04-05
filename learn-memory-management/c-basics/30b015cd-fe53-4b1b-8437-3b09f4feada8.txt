@@ -1,0 +1,1 @@
+'starting' prints, then a stack trace due to an undefined function prints
